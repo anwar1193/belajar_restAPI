@@ -1,0 +1,31 @@
+[
+    {
+        "nama" : "Munawar Ahmad",
+        "umur" : 27,
+        "nim" : 1201065,
+        "lulus" : true,
+        "hobby" : [
+            "coding",
+            "pingpong"
+        ],
+        "pembimbing" : {
+            "pembimbing1" : "Junaidi Surya",
+            "pembimbing2" : "Muhammad Ihsan"
+        }
+    },
+
+    {
+        "nama" : "Shinta Purnama",
+        "umur" : 24,
+        "nim" : 1201066,
+        "lulus" : true,
+        "hobby" : [
+            "SHI",
+            "makan"
+        ],
+        "pembimbing" : {
+            "pembimbing1" : "Megawati",
+            "pembimbing2" : "Elzas"
+        }
+    }
+]
