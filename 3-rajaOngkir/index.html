@@ -101,7 +101,21 @@
 
                 <tbody id="data_cost"></tbody>
               </table>
+
             </div>
+          </div>
+
+          <div class="mt-4">
+            <span class="d-block mb-2"><b>Penting</b> : Jika saat pilih provinsi/kota tidak muncul pilihan nya, silahkan klik tombol petunjuk di bawah ini :</span>
+
+            <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#modal-chrome">
+              Google Chrome
+            </button>
+
+            <button class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#modal-firefox">
+              Firefox
+            </button>
+
           </div>
         </div>
         <!-- END Colom Kanan -->
@@ -119,3 +133,80 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
+
+
+<!-- Modal Chrome -->
+<div class="modal fade" id="modal-chrome" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Petunjuk Untuk Pengguna Google Chrome</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <ol>
+          <li>Pastikan anda sedang menggunakan browser <b>Google Chrome</b></li>
+          <li>Klik link berikut : <a href="https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en-US" target="_blank">Allow Cors</a> Untuk Ke Halaman Extension</li>
+
+          <li>Klik <b>Add to Chrome</b></li>
+
+          <li>Klik <b>Add Extension</b></li>
+
+          <li>
+            Pastikan Extension Allow Cors nya aktif, seperti gambar di bawah ini : <br>
+            <img src="img/allow-cors.JPG" alt="" class="img-fluid" width="500px">
+          </li>
+
+          <li>Refresh/Reload halaman aplikasi cek ongkir</li>
+
+          <li>Coba kembali untuk menggunakan aplikasi cek ongkir</li>
+        </ol>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END Modal Chrome -->
+
+
+
+<!-- Modal Firefox -->
+<div class="modal fade" id="modal-firefox" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Petunjuk Untuk Pengguna Mozilla Firefox</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <ol>
+          <li>Pastikan anda sedang menggunakan browser <b>Mozilla Firefox</b></li>
+          <li>Klik link berikut : <a href="https://addons.mozilla.org/id/firefox/addon/access-control-allow-origin/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search" target="_blank">Allow Cors</a> Untuk Ke Halaman Add Ons</li>
+
+          <li>Klik <b>Tambah Ke Firefox</b></li>
+          <li>Saat muncul pop up, Klik <b>Tambahkan</b></li>
+          <li>Checklist Izinkan Extensi..<b></b> , Lalu klik Oke</li>
+
+          <li>
+            Pastikan Extension Allow Cors nya aktif, seperti gambar di bawah ini : <br>
+            <img src="img/allow-cors.JPG" alt="" class="img-fluid" width="500px">
+          </li>
+
+          <li>Refresh/Reload halaman aplikasi cek ongkir</li>
+
+          <li>Coba kembali untuk menggunakan aplikasi cek ongkir</li>
+        </ol>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END Modal Firefox -->
