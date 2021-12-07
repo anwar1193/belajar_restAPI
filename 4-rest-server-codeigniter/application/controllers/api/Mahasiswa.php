@@ -17,7 +17,12 @@ class Mahasiswa extends CI_Controller
 		parent::__construct();
 		$this->__resTraitConstruct();
 		$this->load->model('model_mahasiswa');
-		$this->methods['index_get']['limit'] = 100; //limit key untuk get
+
+		$this->methods['index_get']['limit']    = 100;   //limit key (dalam 1 jam) untuk method get (tampil data)
+		$this->methods['index_post']['limit']   = 100;   //limit key (dalam 1 jam) untuk method post (tambah data)
+		$this->methods['index_put']['limit']    = 100;   //limit key (dalam 1 jam) untuk method put (update data)
+		$this->methods['index_delete']['limit'] = 100;   //limit key (dalam 1 jam) untuk method delete (hapus data)
+
 	}
 
 	public function index_get(){
