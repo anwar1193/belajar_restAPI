@@ -5,10 +5,17 @@
 * Key Raja Onggkir API : a7635953c63f9c02fe291a94939e5c8b
 
 
-Channel SBXperience
--------------------
+Channel Youtube SBXperience
+-----------------------------
 ID Youtube :
 UCvA-pKFl6XH_vdihSK9nDhw
 
 API Key :
 AIzaSyBW8vhtSH6I-9V0SWOMl27WRbr84QPhrhY
+
+
+Instagram API (anwar.1193)
+--------------------------
+ID : 233849842103211 (603852394260058) 4575050619268803
+API Secret : b99a9162569c5c5b3013f00375abe23a
+Token/Key : IGQVJWSWFCV2Y3cjRpQ1g3MUY4UkMwMFhqdWNGbDFYTkFDTERGbWcxTXpzcTBxbkh2MWpRZAU1DcmdnMDdyY3lfclRKWDhJSDFVb2FfV1hOdzBaa2hUZAElIU2EyT0FsWHZAPWmJ2NnVSZAERYdFQwNDhjMgZDZD
